@@ -23,6 +23,7 @@ class ViewController: UITableViewController {
             }
         }
         print(pictures)
+        title = "Storm Viewer"
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
